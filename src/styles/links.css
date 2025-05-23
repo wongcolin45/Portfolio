@@ -1,0 +1,83 @@
+.social-section {
+    margin-top: -2rem;
+}
+
+.social-section h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 2rem auto;
+}
+
+.social-links h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.link-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.link-buttons a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    gap: 0.75rem;
+    transition: all 0.3s ease;
+}
+
+.link-buttons a img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.btn-github {
+    background-color: #333;
+}
+
+.btn-instagram {
+    background: linear-gradient(45deg, #feda75, #d62976, #962fbf);
+}
+
+.btn-linkedin {
+    background-color: #0077b5;
+}
+
+.link-buttons a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .link-buttons a {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.2rem;
+    }
+}
+
+.link-buttons a img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+}

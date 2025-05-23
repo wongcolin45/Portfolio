@@ -1,0 +1,52 @@
+/* in App.css or your main stylesheet */
+
+/* 1. Header container */
+.resume-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;       /* limits how wide the header stretches */
+    margin: 2rem auto;      /* center it and give vertical breathing room */
+    padding: 0 1.5rem;      /* inset from the left/right edges */
+    margin-bottom: 2%;
+}
+
+/* 2. Title style */
+.resume-header h1 {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* 3. Download button (your existing styles) */
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(135deg, #4f46e5, #3b82f6);
+    border: none;
+    border-radius: 0.375rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.download-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.12);
+}
+
+.download-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+}

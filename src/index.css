@@ -1,0 +1,70 @@
+* {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f6f8fa;
+}
+
+.navbar {
+  width: 100%;
+  background: #fff;
+  padding: 1.2rem 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  border-bottom: 1px solid #ececec;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.08rem;
+  letter-spacing: 0.02em;
+  padding: 0.3em 0.7em;
+  border-radius: 6px;
+}
+
+.navbar li a:hover {
+  background: #f3f3f3;
+  color: #6c63ff;
+}
+
+.about,
+.education-section {
+  width: 650px;
+  max-width: 650px;
+  margin: 40px auto 0 auto;
+  padding: 2.5rem 2rem;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.08), 0 1.5px 4px rgba(0,0,0,0.06);
+  color: #222;
+  transition: box-shadow 0.2s;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.about {
+  margin-bottom: 32px;
+}
+
+.education-section {
+  margin-top: 0;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 5vh;
+  margin-bottom: 0;
+}
