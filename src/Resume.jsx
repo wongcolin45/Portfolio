@@ -23,7 +23,7 @@ const Resume = () => {
                 </a>
             </div>
 
-            <PDFViewer fileUrl={fileUrl} />
+
         </div>
     );
 }

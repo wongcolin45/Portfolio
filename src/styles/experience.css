@@ -1,0 +1,14 @@
+
+.experience h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.experience-section {
+    width: 90%;
+    max-width: 900px;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 6px 32px rgba(0, 0, 0, 0.08), 0 1.5px 4px rgba(0, 0, 0, 0.06);
+}
