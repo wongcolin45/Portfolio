@@ -83,16 +83,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="stack-section">
-                    <h2>My Current Tech Stack</h2>
-                    <div className="tech-stack">
-                        {techStack.map((tech, idx) => {
-                            return (
-                                <img key={idx} src={tech} alt={'tech-image'} onClick={() => window.open(links[idx])}/>
-                            )
-                        })}
-                    </div>
-                </div>
+                <br></br>
                 <Links/>
             </div>
         </div>

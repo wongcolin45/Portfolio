@@ -14,8 +14,13 @@ const Experience = () => {
 
                 <div className='experience-section'>
                    <div className='experience-header'>
-                        
+                       <h2>Algorithm & Data Teaching Assistant</h2>
+                       <h4>
+                           Khoury College of Computer Science
+                       </h4>
+                       <span>I am currently helping TA Nor</span>
                     </div>
+
                 </div>
             </div>
 

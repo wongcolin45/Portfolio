@@ -6,7 +6,8 @@
 
 .experience-section {
     width: 90%;
-    max-width: 900px;
+    margin: auto;
+    max-width: 90%;
     padding: 2rem;
     background: #fff;
     border-radius: 18px;
