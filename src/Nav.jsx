@@ -9,9 +9,9 @@ const Nav = () => (
         <Link to="/">About</Link>
       </li>
 
-      <li>
-        <Link to="/experience">Experience</Link>
-      </li>
+      {/*<li>*/}
+      {/*  <Link to="/experience">Experience</Link>*/}
+      {/*</li>*/}
 
       <li>
         <Link to="/projects">Projects</Link>
