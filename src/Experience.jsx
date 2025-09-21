@@ -18,7 +18,7 @@ const Experience = () => {
                        <h4>
                            Khoury College of Computer Science
                        </h4>
-                       <span>I am currently helping TA Nor</span>
+                       <span>I am currently helping TA Algorithms & Data at Northeastern.</span>
                     </div>
 
                 </div>
